@@ -16,6 +16,12 @@
     <Filter Include="Файлы ресурсов\Shaders">
       <UniqueIdentifier>{b960899e-0f06-472d-9ba1-c9a6a568c18d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Исходные файлы\Textures">
+      <UniqueIdentifier>{4c63f08d-d3e7-43cf-8160-7532925c90f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Testing">
+      <UniqueIdentifier>{52581692-ba05-4725-8f26-3a4e61c31a65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -34,6 +40,12 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="VAO.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -58,5 +70,21 @@
     <ClInclude Include="VAO.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D:\Загрузки\2boobs.jpeg">
+      <Filter>Исходные файлы\Textures</Filter>
+    </Image>
+    <Image Include="good_bot.jpeg">
+      <Filter>Исходные файлы\Textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cube.txt">
+      <Filter>Исходные файлы\Testing</Filter>
+    </Text>
   </ItemGroup>
 </Project>
