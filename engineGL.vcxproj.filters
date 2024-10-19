@@ -48,6 +48,9 @@
     <ClCompile Include="Texture.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="default.vert">
@@ -56,6 +59,8 @@
     <None Include="default.frag">
       <Filter>Файлы ресурсов\Shaders</Filter>
     </None>
+    <None Include="light.frag" />
+    <None Include="light.vert" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shaderClass.h">
@@ -73,12 +78,27 @@
     <ClInclude Include="Texture.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="D:\Загрузки\2boobs.jpeg">
       <Filter>Исходные файлы\Textures</Filter>
     </Image>
     <Image Include="good_bot.jpeg">
+      <Filter>Исходные файлы\Textures</Filter>
+    </Image>
+    <Image Include="planks.png">
+      <Filter>Исходные файлы\Textures</Filter>
+    </Image>
+    <Image Include="planksSpec.png">
+      <Filter>Исходные файлы\Textures</Filter>
+    </Image>
+    <Image Include="brick.jpg">
+      <Filter>Исходные файлы\Textures</Filter>
+    </Image>
+    <Image Include="brickSpec.png">
       <Filter>Исходные файлы\Textures</Filter>
     </Image>
   </ItemGroup>

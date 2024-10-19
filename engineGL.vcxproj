@@ -137,6 +137,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
     <ClCompile Include="EBO.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="Main.cpp" />
@@ -149,8 +150,11 @@
   <ItemGroup>
     <None Include="default.frag" />
     <None Include="default.vert" />
+    <None Include="light.frag" />
+    <None Include="light.vert" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="EBO.h" />
     <ClInclude Include="shaderClass.h" />
     <ClInclude Include="Texture.h" />
@@ -158,8 +162,12 @@
     <ClInclude Include="VBO.h" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="brick.jpg" />
+    <Image Include="brickSpec.png" />
     <Image Include="D:\Загрузки\2boobs.jpeg" />
     <Image Include="good_bot.jpeg" />
+    <Image Include="planks.png" />
+    <Image Include="planksSpec.png" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="cube.txt" />
