@@ -295,7 +295,7 @@ int main()
 
 	glm::vec4 lightColor = glm::vec4(1.0f, 1.0f, 1.0f, 1.0f);
 
-	glm::vec3 lightPos = glm::vec3(0.0f, 1.0f, 0.0f);
+	glm::vec3 lightPos = glm::vec3(0.0f, 0.5f, 0.0f);
 	glm::mat4 lightModel = glm::mat4(1.0f);
 	lightModel = glm::translate(lightModel, lightPos);
 
@@ -315,7 +315,7 @@ int main()
 
 	//TEXTURE
 
-	Texture planksTex("planks.png", GL_TEXTURE_2D,0, GL_RGBA, GL_UNSIGNED_BYTE);
+	Texture planksTex("planks.png", GL_TEXTURE_2D, 0, GL_RGBA, GL_UNSIGNED_BYTE);
 	planksTex.texUnit(shaderProgram, "tex0", 0);
 	Texture planksSpec("planksSpec.png", GL_TEXTURE_2D, 1, GL_RED, GL_UNSIGNED_BYTE);
 	planksSpec.texUnit(shaderProgram, "tex1", 1);
